@@ -2,95 +2,95 @@ const backendDomin = process.env.REACT_APP_BACKEND_URL;
 
 const SummaryApi = {
   signUP: {
-    url: `${backendDomin}/signup`,
+    url: `${backendDomin}/api/signup`,
     method: "post",
   },
   signIn: {
-    url: `${backendDomin}/signin`,
+    url: `${backendDomin}/api/signin`,
     method: "post",
   },
   current_user: {
-    url: `${backendDomin}/user-details`,
+    url: `${backendDomin}/api/user-details`,
     method: "get",
   },
   logout_user: {
-    url: `${backendDomin}/userLogout`,
+    url: `${backendDomin}/api/userLogout`,
     method: "get",
   },
   allUser: {
-    url: `${backendDomin}/all-user`,
+    url: `${backendDomin}/api/all-user`,
     method: "get",
   },
   updateUser: {
-    url: `${backendDomin}/update-user`,
+    url: `${backendDomin}/api/update-user`,
     method: "post",
   },
   uploadProduct: {
-    url: `${backendDomin}/upload-product`,
+    url: `${backendDomin}/api/upload-product`,
     method: "post",
   },
   allProduct: {
-    url: `${backendDomin}/get-product`,
+    url: `${backendDomin}/api/get-product`,
     method: "get",
   },
   updateProduct: {
-    url: `${backendDomin}/update-product`,
+    url: `${backendDomin}/api/update-product`,
     method: "post",
   },
   categoryProduct: {
-    url: `${backendDomin}/get-categoryProduct`,
+    url: `${backendDomin}/api/get-categoryProduct`,
     method: "get",
   },
   categoryWiseProduct: {
-    url: `${backendDomin}/category-product`,
+    url: `${backendDomin}/api/category-product`,
     method: "post",
   },
   productDetails: {
-    url: `${backendDomin}/product-details`,
+    url: `${backendDomin}/api/product-details`,
     method: "post",
   },
   addToCartProduct: {
-    url: `${backendDomin}/addtocart`,
+    url: `${backendDomin}/api/addtocart`,
     method: "post",
   },
   addToCartProductCount: {
-    url: `${backendDomin}/countAddToCartProduct`,
+    url: `${backendDomin}/api/countAddToCartProduct`,
     method: "get",
   },
   addToCartProductView: {
-    url: `${backendDomin}/view-card-product`,
+    url: `${backendDomin}/api/view-card-product`,
     method: "get",
   },
   updateCartProduct: {
-    url: `${backendDomin}/update-cart-product`,
+    url: `${backendDomin}/api/update-cart-product`,
     method: "post",
   },
   deleteCartProduct: {
-    url: `${backendDomin}/delete-cart-product`,
+    url: `${backendDomin}/api/delete-cart-product`,
     method: "post",
   },
   searchProduct: {
-    url: `${backendDomin}/search`,
+    url: `${backendDomin}/api/search`,
     method: "get",
   },
   filterProduct: {
-    url: `${backendDomin}/filter-product`,
+    url: `${backendDomin}/api/filter-product`,
     method: "post",
   },
   payment: {
-    url: `${backendDomin}/checkout`,
+    url: `${backendDomin}/api/checkout`,
     method: "post",
   },
   createOrder: {
-    url: `${backendDomin}/orders/create`,
+    url: `${backendDomin}/api/orders/create`,
     method: "post",
   },
   getOrder: {
-    url: `${backendDomin}/orders`,
+    url: `${backendDomin}/api/orders`,
     method: "get",
   },
   allOrder: {
-    url: `${backendDomin}/allOrders`,
+    url: `${backendDomin}/api/allOrders`,
     method: "get",
   },
 };
