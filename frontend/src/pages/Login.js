@@ -35,6 +35,7 @@ const Login = () => {
       body: JSON.stringify(data),
     });
     const dataApi = await dataResonse.json();
+    console.log(dataApi);
     if (dataApi.success) {
       toast.success(dataApi.message);
 
