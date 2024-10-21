@@ -77,22 +77,6 @@ const SummaryApi = {
     url: `${backendDomin}/api/filter-product`,
     method: "post",
   },
-  payment: {
-    url: `${backendDomin}/api/checkout`,
-    method: "post",
-  },
-  createOrder: {
-    url: `${backendDomin}/api/orders/create`,
-    method: "post",
-  },
-  getOrder: {
-    url: `${backendDomin}/api/orders`,
-    method: "get",
-  },
-  allOrder: {
-    url: `${backendDomin}/api/allOrders`,
-    method: "get",
-  },
 };
 
 export default SummaryApi;
