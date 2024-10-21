@@ -1,4 +1,4 @@
-const backendDomin = "http://localhost:8080/api";
+const backendDomin = process.env.REACT_APP_BACKEND_URL;
 
 const SummaryApi = {
   signUP: {
@@ -93,7 +93,6 @@ const SummaryApi = {
     url: `${backendDomin}/allOrders`,
     method: "get",
   },
- 
 };
 
 export default SummaryApi;
