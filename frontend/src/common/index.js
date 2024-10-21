@@ -15,7 +15,7 @@ const SummaryApi = {
   },
   logout_user: {
     url: `${backendDomin}/api/userLogout`,
-    method: "get",
+    method: "post",
   },
   allUser: {
     url: `${backendDomin}/api/all-user`,
@@ -76,6 +76,22 @@ const SummaryApi = {
   filterProduct: {
     url: `${backendDomin}/api/filter-product`,
     method: "post",
+  },
+  payment: {
+    url: `${backendDomin}/api/checkout`,
+    method: "post",
+  },
+  createOrder: {
+    url: `${backendDomin}/api/orders/create`,
+    method: "post",
+  },
+  getOrder: {
+    url: `${backendDomin}/api/orders`,
+    method: "get",
+  },
+  allOrder: {
+    url: `${backendDomin}/api/allOrders`,
+    method: "get",
   },
 };
 

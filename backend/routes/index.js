@@ -35,7 +35,7 @@ const userSignInController = require("../controller/user/userSignin");
 router.post("/signup", userSignUpController);
 router.post("/signin", userSignInController);
 router.get("/user-details", authToken, userDetailsController);
-router.get("/userLogout", userLogout);
+router.post("/userLogout",authToken, userLogout);
 
 //admin panel
 router.get("/all-user", authToken, allUsers);
