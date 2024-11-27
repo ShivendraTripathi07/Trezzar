@@ -9,7 +9,8 @@ const app = express();
 // Middleware for CORS
 app.use(
   cors({
-    origin: 'https://superb-kheer-3d6fe2.netlify.app',
+    // origin: 'https://superb-kheer-3d6fe2.netlify.app',
+    origin: "http://localhost:3000",
     credentials: true,
   })
 );
